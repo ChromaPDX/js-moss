@@ -1,0 +1,852 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>sync | js-moss</title>
+	<meta name="description" content="Documentation for js-moss">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">js-moss</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">js-moss</a>
+				</li>
+				<li>
+					<a href="sync.html">sync</a>
+				</li>
+			</ul>
+			<h1>Module sync</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#addfunctions" class="tsd-kind-icon">add<wbr>Functions</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#addresolvers" class="tsd-kind-icon">add<wbr>Resolvers</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#cascade" class="tsd-kind-icon">cascade</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#continuewithnewframe" class="tsd-kind-icon">continue<wbr>With<wbr>New<wbr>Frame</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#dereference" class="tsd-kind-icon">dereference</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#fromjson" class="tsd-kind-icon">fromJSON</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#getfunctions" class="tsd-kind-icon">get<wbr>Functions</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#getresolvers" class="tsd-kind-icon">get<wbr>Resolvers</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#load" class="tsd-kind-icon">load</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#next" class="tsd-kind-icon">next</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#onmatch" class="tsd-kind-icon">on<wbr>Match</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parse" class="tsd-kind-icon">parse</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parsearray" class="tsd-kind-icon">parse<wbr>Array</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parsefunction" class="tsd-kind-icon">parse<wbr>Function</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parsefunctions" class="tsd-kind-icon">parse<wbr>Functions</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parsenextstructure" class="tsd-kind-icon">parse<wbr>Next<wbr>Structure</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#parseobject" class="tsd-kind-icon">parse<wbr>Object</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#setoptions" class="tsd-kind-icon">set<wbr>Options</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#start" class="tsd-kind-icon">start</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#startbranch" class="tsd-kind-icon">start<wbr>Branch</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#transform" class="tsd-kind-icon">transform</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="sync.html#wrapfunction" class="tsd-kind-icon">wrap<wbr>Function</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="addfunctions" class="tsd-anchor"></a>
+					<h3>add<wbr>Functions</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Functions<span class="tsd-signature-symbol">(</span>userFunctions<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Functions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L284">src/sync.ts:284</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>userFunctions: <span class="tsd-signature-type">Functions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="addresolvers" class="tsd-anchor"></a>
+					<h3>add<wbr>Resolvers</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Resolvers<span class="tsd-signature-symbol">(</span>userResolvers<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Resolvers</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L292">src/sync.ts:292</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>userResolvers: <span class="tsd-signature-type">Resolvers</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="cascade" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> cascade</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">cascade<span class="tsd-signature-symbol">(</span>rv<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L264">src/sync.ts:264</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>rv: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="continuewithnewframe" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> continue<wbr>With<wbr>New<wbr>Frame</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">continue<wbr>With<wbr>New<wbr>Frame<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L47">src/sync.ts:47</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>input: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="dereference" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> dereference</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">dereference<span class="tsd-signature-symbol">(</span>str<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, __namedParameters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L604">src/sync.ts:604</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>str: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>__namedParameters: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="fromjson" class="tsd-anchor"></a>
+					<h3>fromJSON</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">fromJSON<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, baseParser<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L782">src/sync.ts:782</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>config: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> baseParser: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getfunctions" class="tsd-anchor"></a>
+					<h3>get<wbr>Functions</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Functions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#functionsmap" class="tsd-signature-type" data-tsd-kind="Type alias">FunctionsMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L280">src/sync.ts:280</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#functionsmap" class="tsd-signature-type" data-tsd-kind="Type alias">FunctionsMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getresolvers" class="tsd-anchor"></a>
+					<h3>get<wbr>Resolvers</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Resolvers<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#resolversmap" class="tsd-signature-type" data-tsd-kind="Type alias">ResolversMap</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/types.moss.branch.html" class="tsd-signature-type" data-tsd-kind="Interface">Branch</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L288">src/sync.ts:288</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#resolversmap" class="tsd-signature-type" data-tsd-kind="Type alias">ResolversMap</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/types.moss.branch.html" class="tsd-signature-type" data-tsd-kind="Interface">Branch</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="load" class="tsd-anchor"></a>
+					<h3>load</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">load<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, baseParser<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L789">src/sync.ts:789</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>config: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> baseParser: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="next" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> next</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">next<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L55">src/sync.ts:55</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>input: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="onmatch" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> on<wbr>Match</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">on<wbr>Match<span class="tsd-signature-symbol">(</span>rv<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, setter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, operator<span class="tsd-signature-symbol">: </span><a href="types.merge.html#operator" class="tsd-signature-type" data-tsd-kind="Type alias">Operator</a>, key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L232">src/sync.ts:232</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>rv: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>setter: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>operator: <a href="types.merge.html#operator" class="tsd-signature-type" data-tsd-kind="Type alias">Operator</a></h5>
+								</li>
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parse" class="tsd-anchor"></a>
+					<h3>parse</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<span class="tsd-signature-symbol">(</span>trunk<span class="tsd-signature-symbol">: </span><a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a>, baseParser<span class="tsd-signature-symbol">?: </span><a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L771">src/sync.ts:771</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>trunk: <a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> baseParser: <a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parsearray" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> parse<wbr>Array</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Array<span class="tsd-signature-symbol">(</span>layer<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>data<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>state<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.moss.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/types.merge.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a><span class="tsd-signature-symbol"> }</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L192">src/sync.ts:192</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>layer: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>input: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{ </span>data<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>state<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.moss.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/types.merge.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a><span class="tsd-signature-symbol"> }</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter">
+									<h5>data<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li class="tsd-parameter">
+									<h5>state<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.moss.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/types.merge.state.html" class="tsd-signature-type" data-tsd-kind="Interface">State</a></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parsefunction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> parse<wbr>Function</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Function<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, state<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, _key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, setKey<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, setRes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L68">src/sync.ts:68</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>state: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>source: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>_key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> setKey: <span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>key: <span class="tsd-signature-type">string</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> setRes: <span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>res: <span class="tsd-signature-type">any</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parsefunctions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> parse<wbr>Functions</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Functions<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L57">src/sync.ts:57</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parsenextstructure" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> parse<wbr>Next<wbr>Structure</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Next<wbr>Structure<span class="tsd-signature-symbol">(</span>layer<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L210">src/sync.ts:210</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>layer: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+								<li>
+									<h5>input: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="parseobject" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> parse<wbr>Object</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">parse<wbr>Object<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L113">src/sync.ts:113</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="setoptions" class="tsd-anchor"></a>
+					<h3>set<wbr>Options</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Options<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.expand.options.html" class="tsd-signature-type" data-tsd-kind="Interface">Options</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L600">src/sync.ts:600</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="../interfaces/types.expand.options.html" class="tsd-signature-type" data-tsd-kind="Interface">Options</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="start" class="tsd-anchor"></a>
+					<h3>start</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">start<span class="tsd-signature-symbol">(</span>trunk<span class="tsd-signature-symbol">: </span><a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L756">src/sync.ts:756</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>trunk: <a href="types.moss.html#branchdata" class="tsd-signature-type" data-tsd-kind="Type alias">BranchData</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="startbranch" class="tsd-anchor"></a>
+					<h3>start<wbr>Branch</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">start<wbr>Branch<span class="tsd-signature-symbol">(</span>branch<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.moss.branch.html" class="tsd-signature-type" data-tsd-kind="Interface">Branch</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L760">src/sync.ts:760</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>branch: <a href="../interfaces/types.moss.branch.html" class="tsd-signature-type" data-tsd-kind="Interface">Branch</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="transform" class="tsd-anchor"></a>
+					<h3>transform</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">transform<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, baseParser<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L796">src/sync.ts:796</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>config: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> baseParser: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="wrapfunction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> wrap<wbr>Function</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">wrap<wbr>Function<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span>, transformArgs<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, setRes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChromaPDX/js-moss/blob/91ae9e1/src/sync.ts#L177">src/sync.ts:177</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fn: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> transformArgs: <span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>args: <span class="tsd-signature-type">any</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, setRes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-signature">
+									<ul class="tsd-signatures tsd-kind-type-literal">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a>, args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, setRes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-parameters-title">Parameters</h4>
+											<ul class="tsd-parameters">
+												<li>
+													<h5>current: <a href="types.moss.html#returnvalue" class="tsd-signature-type" data-tsd-kind="Type alias">ReturnValue</a></h5>
+												</li>
+												<li>
+													<h5>args: <span class="tsd-signature-type">any</span></h5>
+												</li>
+												<li>
+													<h5>setRes: <span class="tsd-signature-type">any</span></h5>
+												</li>
+											</ul>
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="sync.html">sync</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#addfunctions" class="tsd-kind-icon">add<wbr>Functions</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#addresolvers" class="tsd-kind-icon">add<wbr>Resolvers</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#cascade" class="tsd-kind-icon">cascade</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#continuewithnewframe" class="tsd-kind-icon">continue<wbr>With<wbr>New<wbr>Frame</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#dereference" class="tsd-kind-icon">dereference</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#fromjson" class="tsd-kind-icon">fromJSON</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#getfunctions" class="tsd-kind-icon">get<wbr>Functions</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#getresolvers" class="tsd-kind-icon">get<wbr>Resolvers</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#load" class="tsd-kind-icon">load</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#next" class="tsd-kind-icon">next</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#onmatch" class="tsd-kind-icon">on<wbr>Match</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parse" class="tsd-kind-icon">parse</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parsearray" class="tsd-kind-icon">parse<wbr>Array</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parsefunction" class="tsd-kind-icon">parse<wbr>Function</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parsefunctions" class="tsd-kind-icon">parse<wbr>Functions</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parsenextstructure" class="tsd-kind-icon">parse<wbr>Next<wbr>Structure</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#parseobject" class="tsd-kind-icon">parse<wbr>Object</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#setoptions" class="tsd-kind-icon">set<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#start" class="tsd-kind-icon">start</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#startbranch" class="tsd-kind-icon">start<wbr>Branch</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#transform" class="tsd-kind-icon">transform</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="sync.html#wrapfunction" class="tsd-kind-icon">wrap<wbr>Function</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
